@@ -1,4 +1,4 @@
-\# Smart Environmental Monitor
+# Smart Environmental Monitor
 
 
 
@@ -6,73 +6,73 @@ This project uses an ESP32 microcontroller and a BME280 sensor to measure temper
 
 
 
-\## Features
+## Features
 
 
 
-\- Measures temperature, humidity, and atmospheric pressure
+- Measures temperature, humidity, and atmospheric pressure
 
-\- Displays sensor readings on an 128x32 OLED screen
+- Displays sensor readings on an 128x32 OLED screen
 
-\- Converts temperature readings from Celsius to Fahrenheit
+- Converts temperature readings from Celsius to Fahrenheit
 
-\- Updates measurements every 2 seconds
+- Updates measurements every 2 seconds
 
-\- Uses I2C communication to connect with multiple devices on the same bus
-
-
-
-\## Hardware
+- Uses I2C communication to connect with multiple devices on the same bus
 
 
 
-\- ESP32 development board
-
-\- BME280 temperature, humidity, and pressure sensor
-
-\- 128x32 SSD1306 OLED display
-
-\- Breadboard
-
-\- Jumper wires
+## Hardware
 
 
 
-\## Technical Details
+- ESP32 development board
+
+- BME280 temperature, humidity, and pressure sensor
+
+- 128x32 SSD1306 OLED display
+
+- Breadboard
+
+- Jumper wires
 
 
 
-\- Programmed the ESP32 in C++
-
-\- Used I2C communication to connect with the BME280 and OLED display
-
-\- Used an I2C scanner to identify and verify device addresses
-
-\- Integrated multiple I2C peripherals on the same SDA/SCL bus
-
-\- Used the Adafruit BME280, SSD1306, and GFX libraries
-
-\- Converted raw pressure readings from Pa to hPa
-
-\- Debugged hardware connections and sensor communication during development
+## Technical Details
 
 
 
-\## Project Structure
+- Programmed the ESP32 in C++
+
+- Used I2C communication to connect with the BME280 and OLED display
+
+- Used an I2C scanner to identify and verify device addresses
+
+- Integrated multiple I2C peripherals on the same SDA/SCL bus
+
+- Used the Adafruit BME280, SSD1306, and GFX libraries
+
+- Converted raw pressure readings from Pa to hPa
+
+- Debugged hardware connections and sensor communication during development
 
 
 
-\- `Code/01\_I2C\_Scanner` - I2C scanner used to identify connected devices
-
-\- `Code/02\_OLED\_Hello` - Initial OLED display test
-
-\- `Code/03\_Final\_Build` - Final integrated environmental monitor
-
-\- `Photos/` - Photos of the hardware and completed project
+## Project Structure
 
 
 
-\## How It Works
+- `Code/01\_I2C\_Scanner` - I2C scanner used to identify connected devices
+
+- `Code/02\_OLED\_Hello` - Initial OLED display test
+
+- `Code/03\_Final\_Build` - Final integrated environmental monitor
+
+- `Photos/` - Photos of the hardware and completed project
+
+
+
+## How It Works
 
 
 
@@ -81,7 +81,7 @@ The ESP32 communicates with both the BME280 sensor and SSD1306 OLED display over
 
 
 
-\## What I Learned
+## What I Learned
 
 
 
