@@ -80,25 +80,6 @@ The ESP32 communicates with both the BME280 sensor and SSD1306 OLED display over
 
 
 
-\## Photos
-
-
-
-\### Final Build
-
-
-
-!\[Final environmental monitor](Photos/final\_build.jpg)
-
-
-
-\### Wiring
-
-
-
-!\[ESP32, BME280, and OLED wiring](Photos/wiring.jpg)
-
-
 
 \## What I Learned
 
